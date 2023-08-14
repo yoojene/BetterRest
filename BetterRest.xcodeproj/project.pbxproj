@@ -11,6 +11,7 @@
 		448828B02A8A5C61006E584E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448828AF2A8A5C61006E584E /* ContentView.swift */; };
 		448828B22A8A5C63006E584E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448828B12A8A5C63006E584E /* Assets.xcassets */; };
 		448828B52A8A5C63006E584E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448828B42A8A5C63006E584E /* Preview Assets.xcassets */; };
+		44EACB6A2A8A7528009F2AFA /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 44EACB652A8A7074009F2AFA /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		448828AF2A8A5C61006E584E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		448828B12A8A5C63006E584E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		448828B42A8A5C63006E584E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44EACB652A8A7074009F2AFA /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				448828AD2A8A5C61006E584E /* BetterRestApp.swift */,
+				44EACB652A8A7074009F2AFA /* SleepCalculator.mlmodel */,
 				448828AF2A8A5C61006E584E /* ContentView.swift */,
 				448828B12A8A5C63006E584E /* Assets.xcassets */,
 				448828B32A8A5C63006E584E /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EACB6A2A8A7528009F2AFA /* SleepCalculator.mlmodel in Sources */,
 				448828B02A8A5C61006E584E /* ContentView.swift in Sources */,
 				448828AE2A8A5C61006E584E /* BetterRestApp.swift in Sources */,
 			);
@@ -266,7 +270,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "BetterRest/Preview\\ Content";
 				DEVELOPMENT_TEAM = 3XF7K7C56U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "BetterRest/Preview\\ Content";
 				DEVELOPMENT_TEAM = 3XF7K7C56U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
